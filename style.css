@@ -25,6 +25,7 @@ section {
   background-attachment: fixed;
   height: 100%;
   width: 100%;
+  min-height: 100vh;
 }
 
 .transparente {
@@ -54,7 +55,7 @@ section {
 }
 
 .card-title {
-  font-family: 'Changa One', cursive;
+  font-family: var(--fuente-titulos);
   font-size: 2rem;
 }
 
@@ -67,7 +68,7 @@ section {
   height: 250px;
   width: 250px;
   border-radius: 50%;
-  border: 2px solid var(--paleta-color-blanco);
+  border: 3px solid var(--paleta-color-blanco);
   background-color: #212529;
 }
 
