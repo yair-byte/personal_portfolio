@@ -192,6 +192,7 @@ section {
 
 .habilidades .contenedor-abajo .row {
   min-width: 130%;
+  margin-top: 2rem;
 }
 
 .habilidades .contenedor-abajo .list-group-item {
