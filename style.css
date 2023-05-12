@@ -9,7 +9,7 @@
 
 
 body {
-  background-color: #212529;
+  background-color: rgb(23, 21, 21);
 }
 
 section {
@@ -288,6 +288,7 @@ section {
 
 footer {
   min-height: 250px;
+  background-color: rgb(23, 21, 21);
 }
 
 .footer-texto {
@@ -316,6 +317,29 @@ footer {
 
 .iconos-redes-sociales a:hover i {
   color: black;
+}
+
+/*trabajos*/
+
+.trabajos {
+  padding: 9%;
+  background-color: #212529;
+}
+
+.trabajos .seccion-titulo {
+  color: var(--paleta-color-principal);
+  font-family: var(--fuente-titulos);
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.trabajos img{
+  transition: opacity 0.25s ease-in-out;
+}
+
+.trabajos img:hover {
+  opacity: 0.7;
 }
 
 .derechos-de-autor {
